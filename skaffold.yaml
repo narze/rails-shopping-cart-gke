@@ -28,4 +28,4 @@ profiles:
         chartPath: charts/rails-shopping-cart
         setValueTemplates:
           image.repository: "{{.DOCKER_REGISTRY}}/narze/rails-shopping-cart"
-          image.tag: "{{.TAG}}"
+          image.tag: "{{.DIGEST_HEX}}"
